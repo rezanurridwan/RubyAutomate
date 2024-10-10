@@ -12,3 +12,10 @@ Given I am on the login page
 When I enter the null "username" and valid "password"
 When I click button login
 Then I am see the error validation "Epic sadface: Username is required"
+
+@Invalid_login @tc03_login_invalid_with_password_null
+Scenario: As user I can login into website
+Given I am on the login page
+When I enter the valid "username" and null "password"
+When I click button login
+Then I am see the error validation "Epic sadface: Password is required" in login page

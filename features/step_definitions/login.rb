@@ -30,4 +30,17 @@ Then('I am see the error validation {string}') do|username_error|
   val_error_username= find(:xpath,loc_val_error_username).text
   expect(val_error_username).to have_text(username_error)
 end
+# @tc03
+When('I enter the valid {string} and null {string}') do|username, password|
+  username = "standard_user"
+  password = ""
+  find(:xpath, "//input[@id='user-name']").set(username)
+  find(:xpath, "//input[@id='password']").set(password)
+end
+Then('I am see the error validation {string} in login page') do|password_error|
+  loc_val_error_username = "//h3[@data-test='error']"
+  val_error_username= find(:xpath,loc_val_error_username).text
+  expect(val_error_username).to have_text(password_error)
+end
+
 
