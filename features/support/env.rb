@@ -2,6 +2,8 @@ require 'capybara/cucumber'
 require 'capybara/rspec'
 require 'cucumber'
 require 'selenium-webdriver'
+require 'yaml', '~> 0.3.0'
+# require 'dotenv', '~> 3.1', '>= 3.1.4'
 
 Capybara.register_driver :chrome do |app|
   options = Selenium::WebDriver::Chrome::Options.new

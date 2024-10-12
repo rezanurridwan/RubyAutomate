@@ -1,5 +1,6 @@
 When('I click cart button for the product {string} on the inventory page') do |string|
-  pending # Write code here that turns the phrase above into concrete actions
+  loc_shopping_cart = "//a[@class='shopping_cart_link']"
+  find(:xpath, loc_shopping_cart).click
 end
 
 Then('I see the text {string} in cart page') do |string|
