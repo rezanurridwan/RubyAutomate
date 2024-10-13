@@ -1,2 +1,4 @@
 VALID_USERNAME: standard_user
+LOCKED_USERNAME: locked_out_user
 VALID_PASSWORD: secret_sauce
+VALIDATION_LOCKED_USER: "Epic sadface: Sorry, this user has been locked out."
