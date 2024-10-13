@@ -5,12 +5,13 @@ end
 
 When('I click the add to cart button for each products on the inventory page') do
   @list_product.each do |row|
-    step 'I click the add to cart button for the product "' + row['product_name'] + '" on the inventory page'
+    step 'I click the add to cart button for the product "'+ row['product_name'] +'" on the inventory page'
   end
 end
 
 Then('I can see remove button for each products on the inventory page') do
   @list_product.each do |row|
-    step 'I can see remove button for the product in inventory page "' + row['product_name'] + '" on the inventory page'
+    step 'I can see remove button product "'+row['product_name']+'" in inventory page'
   end
 end
+
