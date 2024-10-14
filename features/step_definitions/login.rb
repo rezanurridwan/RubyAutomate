@@ -1,21 +1,25 @@
+# open url
 Given('I am on the login page') do
-  visit 'https://www.saucedemo.com/'
-  sleep 3
+  @page.login_page.load
 end
+# inser username and password
+When('I enter the username {string} and password {string}') do |username, password|
+  username_value = get_data_test_single_env(username)
+  password_value = get_data_test_single_env(password)
+  @page.login_page.input_username(username_value)
+  @page.login_page.input_password(password_value)
+end
+# btn login
 When('I click button login in login page') do
-  find(:xpath, "//input[@id='login-button']").click
+  @page.login_page.click_btn_login
 end
 Then('I am on homepage landing page and see the title {string}') do|expected_title|
-  loc_title = "//span[@class='title']"
-  title_product_element = find(:xpath,loc_title).text
-  expect(title_product_element).to have_text(expected_title)
+  title_homepage_value = get_data_test_single_env(expected_title)
+  expect(@page.login_page.get_title_login).to have_text(title_homepage_value)
+  # @page.login_page.get_title_login(expected_title)
+  # expect(title_product_element).to have_text(expected_title)
 end
 
-# @tc01_login_valid
-When('I enter the username {string} and password {string}') do |username, password|
-  find(:xpath, "//input[@id='user-name']").set(username)
-  find(:xpath, "//input[@id='password']").set(password)
-end
 # @tc02_login_invalid_with_username_null
 When('I enter the username null {string} and password {string}') do|username, password|
   find(:xpath, "//input[@id='user-name']").set(username)
