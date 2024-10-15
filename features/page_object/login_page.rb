@@ -10,6 +10,7 @@ class LoginPage < SitePrism::Page
 
   # locator assertion Login Page
   element :loc_title, :xpath, "//*[@data-test='title']"
+  element :loc_error_message, :xpath, "//*[@data-test='error']"
 
 # function form login
   def input_username(username)
@@ -24,7 +25,9 @@ class LoginPage < SitePrism::Page
   def get_title_login
     loc_title.text
   end
-
+  def get_error_locked
+    loc_error_message
+  end
 
 
 end

@@ -1,7 +1,4 @@
-
-
 class Page
-
   def login_page
   LoginPage.new
   end
