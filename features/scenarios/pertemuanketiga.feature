@@ -3,16 +3,15 @@ Feature:
 
   Background:
     Given I am on the login page
-    When I enter the username "standard_user" and password "secret_sauce"
+    When I enter the username "VALID_USERNAME" and password "PASSWORD"
     When I click button login in login page
-    Then I am on homepage landing page and see the title "Products"
+    Then I am on homepage landing page and see the title "VALIDATION_TITLE_HOMEPAGE"
  # menggunakan single outline
 
   @tc02_ketiga
   Scenario: [Examples] As a user I can add product to cart
     When I click the add to cart button for the product "<product_name>" on the inventory page
     Then I can see remove button product "<product_name>" in inventory page
-
     Examples:
       | product_name          |
       | Sauce Labs Bike Light |

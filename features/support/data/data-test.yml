@@ -11,3 +11,11 @@ PASSWORD: secret_sauce
 VALIDATION_TITLE_HOMEPAGE : "Products"
 
 VALIDATION_LOCKED_USER: "Epic sadface: Sorry, this user has been locked out."
+
+product_name: 
+- Sauce Labs Backpack
+- Sauce Labs Bike Light
+
+
+
+

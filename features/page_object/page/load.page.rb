@@ -6,7 +6,5 @@ class Page
   def inventory_page
   InventoryPage.new
   end
-
-
-
+  
 end

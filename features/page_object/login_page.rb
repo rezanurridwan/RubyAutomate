@@ -21,6 +21,7 @@ class LoginPage < SitePrism::Page
   end
   def click_btn_login
     btn_login.click
+    sleep 5
   end
   def get_title_login
     loc_title.text
