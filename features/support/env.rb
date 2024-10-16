@@ -33,6 +33,11 @@ def get_data_test_single_env(key)
   file = YAML.load_file("features/support/data/data-test.yml")
   return file[key]
 end
+# single data test
+def get_data_test_valid_login(key)
+  file = YAML.load_file("features/support/data/data-test-dev.yml")
+  return file[key]
+end
 # multi envy
 def get_data_test(key)
   file = YAML.load_file("features/support/data/data-test-#{ ENV['TARGET'].downcase }.yml")

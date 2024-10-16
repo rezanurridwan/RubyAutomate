@@ -2,11 +2,20 @@ BASE_URL: "https://www.saucedemo.com/"
 
 VALID_USERNAME: standard_user
 LOCKED_USERNAME: locked_out_user
-PROBLEM_USER: problem_user
+PROBLEM_USERNAME: problem_user
 PERFORMANCE_USER: performance_glitch_user
-ERROR_USER: error_user
-VISUAL_USER: visual_user
+ERROR_USERNAME: error_user
+VISUAL_USERNAME: visual_user
 PASSWORD: secret_sauce
 
+VALIDATION_TITLE_HOMEPAGE : "Products"
+
 VALIDATION_LOCKED_USER: "Epic sadface: Sorry, this user has been locked out."
-VALIDASI_TITLE_HOMEPAGE : "Products"
+
+product_name: 
+- Sauce Labs Backpack
+- Sauce Labs Bike Light
+
+
+
+
