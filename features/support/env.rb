@@ -1,5 +1,6 @@
 require 'capybara/cucumber'
 require 'capybara/rspec'
+require 'rspec'
 require 'cucumber'
 require 'dotenv'
 require 'site_prism'
