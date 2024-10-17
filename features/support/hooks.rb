@@ -20,8 +20,7 @@ After('@case-2') do
 end
 
 AfterStep do
-
-  # take_screenshot
+  take_screenshot
   sleep 1
 end
 
