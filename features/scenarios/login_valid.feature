@@ -1,6 +1,7 @@
 Feature: Valid Login
 
-@Valid_login @tc01_login_valid
+
+@Regression @Valid_login @tc01_login_valid
 Scenario: As user I can login into website
 Given I am on the login page
 When I enter the username "VALID_USERNAME" and password "PASSWORD"

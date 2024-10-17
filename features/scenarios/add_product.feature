@@ -6,7 +6,7 @@ When I enter the username "VALID_USERNAME" and password "PASSWORD"
 When I click button login in login page
 Then I am on homepage landing page and see the title "VALIDATION_TITLE_HOMEPAGE"
 
-@AddProduct @tc01_add_product
+@Regression @AddProduct @tc01_add_product
 Scenario: As a user I can add product to cart
 Given I have products as product_name:
       | product_name          |
