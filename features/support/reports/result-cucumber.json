@@ -1,18 +1,19 @@
 [
   {
-    "id": "valid-login",
-    "uri": "features/scenarios/login_valid.feature",
+    "id": "",
+    "uri": "features/scenarios/checkout.feature",
     "keyword": "Feature",
-    "name": "Valid Login",
+    "name": "",
     "description": "",
     "line": 1,
     "elements": [
       {
-        "keyword": "Background",
-        "name": "",
+        "id": ";as-user-i-can-checkout-the-product",
+        "keyword": "Scenario",
+        "name": "As user I can checkout the product",
         "description": "",
         "line": 3,
-        "type": "background",
+        "type": "scenario",
         "steps": [
           {
             "keyword": "Given ",
@@ -23,7 +24,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1706792000
+              "duration": 7777634800
             }
           },
           {
@@ -35,7 +36,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 277869300
+              "duration": 261337400
             }
           },
           {
@@ -47,8 +48,119 @@
             },
             "result": {
               "status": "passed",
-              "duration": 165872700
+              "duration": 152836300
             }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I am on homepage landing page and see the title \"VALIDATION_TITLE_HOMEPAGE\"",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77019100
+            }
+          },
+          {
+            "keyword": "Given ",
+            "name": "I have products as product_name for checkout",
+            "line": 8,
+            "rows": [
+              {
+                "cells": [
+                  "product_name"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ]
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/checkout.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 259600
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click the add to cart button for the product checkout name on the inventory page",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/checkout.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10183224500
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click cart button for the product on the inventory page",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/checkout.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94048700
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I see the text \"Your Cart\" in cart page",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/checkout.rb:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59956600
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "I click button checkout",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/checkout.rb:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 93651800
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "I see the text \"Checkout: Your Information\" in checkout page",
+            "line": 16,
+            "match": {
+              "location": "features/step_definitions/checkout.rb:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44749000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@checkout",
+            "line": 2
+          },
+          {
+            "name": "@tc01_checkout_with_valid_data",
+            "line": 2
           }
         ],
         "before": [
@@ -58,7 +170,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 38800
+              "duration": 27700
             }
           },
           {
@@ -67,7 +179,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20900
+              "duration": 22900
             }
           },
           {
@@ -76,76 +188,8 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2554020800
+              "duration": 2811668900
             }
-          }
-        ]
-      },
-      {
-        "id": "valid-login;as-user-i-can-logout-from-website",
-        "keyword": "Scenario",
-        "name": "As user I can logout from website",
-        "description": "",
-        "line": 14,
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "When ",
-            "name": "I click the strip bar in the left side",
-            "line": 15,
-            "match": {
-              "location": "features/step_definitions/login.rb:60"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3084395000
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "I click logout menu",
-            "line": 16,
-            "match": {
-              "location": "features/step_definitions/login.rb:65"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 46574000
-            }
-          },
-          {
-            "keyword": "Then ",
-            "name": "I am on the login page",
-            "line": 17,
-            "match": {
-              "location": "features/step_definitions/login.rb:2"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 89246400
-            }
-          },
-          {
-            "keyword": "And ",
-            "name": "I am homepage login page see the url login",
-            "line": 18,
-            "match": {
-              "location": "features/step_definitions/login.rb:69"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 19513300
-            }
-          }
-        ],
-        "tags": [
-          {
-            "name": "@Regression",
-            "line": 13
-          },
-          {
-            "name": "@Logout_user",
-            "line": 13
           }
         ],
         "after": [
@@ -155,7 +199,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 102001300
+              "duration": 109864400
             }
           }
         ]
