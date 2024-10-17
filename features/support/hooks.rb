@@ -19,12 +19,12 @@ After('@case-2') do
   puts "HOOKS INI HANYA DIJALANKAN UNTUK TAGS @CASE-2"
 end
 
-AfterStep do
-  take_screenshot
-  sleep 1
-end
+# AfterStep do
+#   take_screenshot
+#   sleep 1
+# end
 
 at_exit do
   puts "GENERATE REPORT"
-  generate_report
+  # generate_report
 end

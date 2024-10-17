@@ -55,3 +55,17 @@ When('I enter from data test for the username {string} and password {string}') d
 step'I enter the username "'+username_value+'" and password "'+password_value+'"'
 end
 
+# Logout step
+
+When('I click the strip bar in the left side') do
+  @page.login_page.btn_burger_menu_inventory_page
+  sleep 3
+end
+
+When('I click logout menu') do
+  @page.login_page.btn_logout
+end
+
+Then('I am homepage login page see the url login') do
+  expect(URI.parse(current_url)).to have_content(get_data_test_single_env("BASE_URL"))
+end

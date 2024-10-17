@@ -8,6 +8,10 @@ class LoginPage < SitePrism::Page
   element :loc_password, :xpath, "//input[@id='password']"
   element :btn_login, :xpath, "//input[@id='login-button']"
 
+  # Locator Element For Logout
+  element :btn_burger_menu_inventory, :xpath, "//*[@id='react-burger-menu-btn']"
+  element :btn_logout, :xpath, "//*[@id='logout_sidebar_link']"
+
   # locator assertion Login Page
   element :loc_title, :xpath, "//*[@data-test='title']"
   element :loc_error_message, :xpath, "//*[@data-test='error']"
@@ -21,7 +25,6 @@ class LoginPage < SitePrism::Page
   end
   def click_btn_login
     btn_login.click
-    sleep 5
   end
   def get_title_login
     loc_title.text
@@ -29,7 +32,12 @@ class LoginPage < SitePrism::Page
   def get_error_locked
     loc_error_message
   end
-
+  def btn_burger_menu_inventory_page
+    btn_burger_menu_inventory.click
+  end
+  def click_btn_logout
+    btn_logout.click
+  end
 
 end
 
