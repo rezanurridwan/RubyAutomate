@@ -4,9 +4,12 @@ Before do
   puts "INI HOOKS BEFORE"
 end
 
-After do |scenario|
-  puts "INI HOOKS AFTER"
-end
+# After do |scenario|
+#   if scenario.failed?
+#     take_screenshot
+#   puts "INI HOOKS AFTER"
+#   end
+# end
 
 # Before('@case-3') do
 #   puts "HOOKS INI HANYA DIJALANKAN UNTUK TAGS @CASE-3"
@@ -17,5 +20,11 @@ After('@case-2') do
 end
 
 AfterStep do
+
+  # take_screenshot
   sleep 1
 end
+
+# at_exit do
+#   generate_report
+# end

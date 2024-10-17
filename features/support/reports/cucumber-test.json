@@ -1,0 +1,236 @@
+[
+  {
+    "id": "",
+    "uri": "features/scenarios/add_product.feature",
+    "keyword": "Feature",
+    "name": "",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the login page",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/login.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 390144200
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 1004172200
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "I enter the username \"VALID_USERNAME\" and password \"PASSWORD\"",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 249165100
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 1012612800
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "I click button login in login page",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5139314000
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 1001437700
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I am on homepage landing page and see the title \"VALIDATION_TITLE_HOMEPAGE\"",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95018500
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 1005303000
+                }
+              }
+            ]
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22300
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18200
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2321419800
+            }
+          }
+        ]
+      },
+      {
+        "id": ";as-a-user-i-can-add-product-to-cart",
+        "keyword": "Scenario",
+        "name": "As a user I can add product to cart",
+        "description": "",
+        "line": 10,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I have products as product_name:",
+            "line": 11,
+            "rows": [
+              {
+                "cells": [
+                  "product_name"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ]
+              }
+            ],
+            "match": {
+              "location": "features/step_definitions/add_product.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 453100
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 1006887000
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "I click the add to cart button for the product name on the inventory page",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/add_product.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10157995700
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 1005912900
+                }
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddProduct",
+            "line": 9
+          },
+          {
+            "name": "@tc01_add_product",
+            "line": 9
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 94617200
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
