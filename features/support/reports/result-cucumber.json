@@ -1,29 +1,30 @@
 [
   {
-    "id": "",
-    "uri": "features/scenarios/add_product.feature",
+    "id": "valid-login",
+    "uri": "features/scenarios/login_valid.feature",
     "keyword": "Feature",
-    "name": "",
+    "name": "Valid Login",
     "description": "",
     "line": 1,
     "elements": [
       {
-        "keyword": "Background",
-        "name": "",
+        "id": "valid-login;as-user-i-can-login-into-website",
+        "keyword": "Scenario",
+        "name": "As user I can login into website",
         "description": "",
-        "line": 3,
-        "type": "background",
+        "line": 4,
+        "type": "scenario",
         "steps": [
           {
             "keyword": "Given ",
             "name": "I am on the login page",
-            "line": 4,
+            "line": 5,
             "match": {
               "location": "features/step_definitions/login.rb:2"
             },
             "result": {
               "status": "passed",
-              "duration": 403779900
+              "duration": 681875200
             },
             "after": [
               {
@@ -32,7 +33,7 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1012163700
+                  "duration": 1013555900
                 }
               }
             ]
@@ -40,13 +41,13 @@
           {
             "keyword": "When ",
             "name": "I enter the username \"VALID_USERNAME\" and password \"PASSWORD\"",
-            "line": 5,
+            "line": 6,
             "match": {
               "location": "features/step_definitions/login.rb:6"
             },
             "result": {
               "status": "passed",
-              "duration": 280035800
+              "duration": 280576400
             },
             "after": [
               {
@@ -55,7 +56,7 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1005182600
+                  "duration": 1011091800
                 }
               }
             ]
@@ -63,13 +64,13 @@
           {
             "keyword": "When ",
             "name": "I click button login in login page",
-            "line": 6,
+            "line": 8,
             "match": {
               "location": "features/step_definitions/login.rb:13"
             },
             "result": {
               "status": "passed",
-              "duration": 5134219800
+              "duration": 5151763600
             },
             "after": [
               {
@@ -78,21 +79,21 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1009939200
+                  "duration": 1000059500
                 }
               }
             ]
           },
           {
             "keyword": "Then ",
-            "name": "I am on homepage landing page and see the title \"VALIDATION_TITLE_HOMEPAGE\"",
-            "line": 7,
+            "name": "I am on homepage landing page and see the title \"VALIDASI_TITLE_HOMEPAGE\"",
+            "line": 9,
             "match": {
               "location": "features/step_definitions/login.rb:17"
             },
             "result": {
               "status": "passed",
-              "duration": 79722700
+              "duration": 67972400
             },
             "after": [
               {
@@ -101,10 +102,20 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1011361200
+                  "duration": 1006975600
                 }
               }
             ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Valid_login",
+            "line": 3
+          },
+          {
+            "name": "@tc01_login_valid",
+            "line": 3
           }
         ],
         "before": [
@@ -114,7 +125,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 65200
+              "duration": 26700
             }
           },
           {
@@ -123,7 +134,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 18700
+              "duration": 19300
             }
           },
           {
@@ -132,91 +143,8 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2291552000
+              "duration": 2411497100
             }
-          }
-        ]
-      },
-      {
-        "id": ";as-a-user-i-can-add-product-to-cart",
-        "keyword": "Scenario",
-        "name": "As a user I can add product to cart",
-        "description": "",
-        "line": 10,
-        "type": "scenario",
-        "steps": [
-          {
-            "keyword": "Given ",
-            "name": "I have products as product_name:",
-            "line": 11,
-            "rows": [
-              {
-                "cells": [
-                  "product_name"
-                ]
-              },
-              {
-                "cells": [
-                  "Sauce Labs Bike Light"
-                ]
-              },
-              {
-                "cells": [
-                  "Sauce Labs Backpack"
-                ]
-              }
-            ],
-            "match": {
-              "location": "features/step_definitions/add_product.rb:1"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 194300
-            },
-            "after": [
-              {
-                "match": {
-                  "location": "features/support/hooks.rb:22"
-                },
-                "result": {
-                  "status": "passed",
-                  "duration": 1007173300
-                }
-              }
-            ]
-          },
-          {
-            "keyword": "When ",
-            "name": "I click the add to cart button for the product name on the inventory page",
-            "line": 15,
-            "match": {
-              "location": "features/step_definitions/add_product.rb:6"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 10198850200
-            },
-            "after": [
-              {
-                "match": {
-                  "location": "features/support/hooks.rb:22"
-                },
-                "result": {
-                  "status": "passed",
-                  "duration": 1006285900
-                }
-              }
-            ]
-          }
-        ],
-        "tags": [
-          {
-            "name": "@AddProduct",
-            "line": 9
-          },
-          {
-            "name": "@tc01_add_product",
-            "line": 9
           }
         ],
         "after": [
@@ -226,7 +154,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 93727800
+              "duration": 125066400
             }
           }
         ]

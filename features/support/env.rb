@@ -69,17 +69,17 @@ def get_data_test(key)
 end
 
 # # generate reports builder
-# def generate_report
-#   ReportBuilder.configure do |config|
-#     time = Time.now.strftime("%Y-%m-%d %H%M%S%L")
-#     config.input_path = 'features/support/reports/result-cucumber.json'
-#     config.report_path = 'features/support/reports/test_result_' + time
-#     config.report_types = [:html]
-#     config.report_title = "Test Result"
-#     config.includes_image = true
-#   end
-#   ReportBuilder.build_report
-# end
+def generate_report
+  ReportBuilder.configure do |config|
+    time = Time.now.strftime("%Y-%m-%d %H%M%S%L")
+    config.input_path = 'features/support/reports/result-cucumber.json'
+    config.report_path = 'features/support/reports/test_result_' + time
+    config.report_types = [:html]
+    config.report_title = "Test Result"
+    config.includes_image = true
+  end
+  ReportBuilder.build_report
+end
 
 def take_screenshot
   # Define the directory where screenshots will be saved

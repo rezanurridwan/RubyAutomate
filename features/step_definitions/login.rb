@@ -50,8 +50,8 @@ end
 
 # @tc05_ketiga
 When('I enter from data test for the username {string} and password {string}') do |username, password|
-  username_value = get_data_test_valid_login(username)
-  password_value = get_data_test_valid_login(password)
+  username_value = get_data_test_single_env(username)
+  password_value = get_data_test_single_env(password)
 step'I enter the username "'+username_value+'" and password "'+password_value+'"'
 end
 

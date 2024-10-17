@@ -25,6 +25,7 @@ AfterStep do
   sleep 1
 end
 
-# at_exit do
-#   generate_report
-# end
+at_exit do
+  puts "GENERATE REPORT"
+  generate_report
+end
