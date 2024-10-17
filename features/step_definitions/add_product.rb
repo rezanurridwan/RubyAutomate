@@ -8,6 +8,7 @@ When('I click the add to cart button for the product name on the inventory page'
     product_name = row['product_name'] # Ambil nama produk dari hash
     @page.inventory_page.add_product(product_name) # Panggil metode dengan nama produk
   end
+  sleep 3
 end
 
 

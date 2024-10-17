@@ -83,7 +83,7 @@ end
 
 def take_screenshot
   # Define the directory where screenshots will be saved
-  screenshot_dir = 'features/support/reports/screenshot'
+  screenshot_dir = 'features/support/reports/screenshot/e2e_steps'
 
   # Ensure the directory exists
   FileUtils.mkdir_p(screenshot_dir)
