@@ -31,7 +31,7 @@ jobs:
           bundle install
 
       - name: Run Capybara tests
-        run: cucumber -t @tc01_add_product BROWSER=firefox HEADLESS=yes PRIVATE=yes --publish
+        run: cucumber -t @Regression BROWSER=firefox HEADLESS=yes PRIVATE=yes --publish
 
       - name: Upload screenshots
         uses: actions/upload-artifact@v3
