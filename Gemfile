@@ -1,6 +1,6 @@
 source "https://rubygems.org/"
 
-ruby "3.3.4"
+ruby "3.1.2"
 gem 'capybara', '~> 3.40'
 gem 'cucumber', '~> 9.2'
 gem 'dotenv', '~> 3.1', '>= 3.1.4'
