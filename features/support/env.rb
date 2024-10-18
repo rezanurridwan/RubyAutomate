@@ -10,48 +10,56 @@ require 'report_builder'
 
 Dotenv.load
 # Menentukan path lokal untuk Chrome
-Capybara.register_driver :manual do |app|
-  options = Selenium::WebDriver::Chrome::Options.new
-  # Tambahkan opsi yang diinginkan di sini, misalnya:
-  if ENV['HEADLESS'].downcase == 'yes'
-    options.add_argument('--headless')
-  end
-  if ENV['INCOGNITO'].downcase == 'yes'
-    options.add_argument('--incognito')
-  end
+# Capybara.register_driver :manual do |app|
+#   options = Selenium::WebDriver::Chrome::Options.new
+#   # Tambahkan opsi yang diinginkan di sini, misalnya:
+#   if ENV['HEADLESS'].downcase == 'yes'
+#     options.add_argument('--headless')
+#   end
+#   if ENV['INCOGNITO'].downcase == 'yes'
+#     options.add_argument('--incognito')
+#   end
 
-  # Menggunakan ChromeDriver secara manual
-  Capybara::Selenium::Driver.new(
-    app,
-    browser: :chrome,
-    options: options,
-    service: Selenium::WebDriver::Service.chrome(path: 'C:/Users/User/Downloads/program/chromedriver-win64/chromedriver.exe'),
-    timeout: 30
-  )
-end
-
-Capybara.configure do |config|
-  config.default_driver = :manual # Ganti driver default menjadi manual
-  config.default_max_wait_time = 30
-end
-
-
-  # Menggunakan Firefox secara manual
-#   Capybara.register_driver :firefox do |app|
-#     options = Selenium::WebDriver::Firefox::Options.new
+#   # Menggunakan ChromeDriver secara manual
 #   Capybara::Selenium::Driver.new(
 #     app,
-#     browser: :firefox,
+#     browser: :chrome,
 #     options: options,
-#     # service: Selenium::WebDriver::Service.chrome(path: 'C:/Users/User/Downloads/program/chromedriver-win64/chromedriver.exe'),
+#     service: Selenium::WebDriver::Service.chrome(path: 'C:/Users/User/Downloads/program/chromedriver-win64/chromedriver.exe'),
 #     timeout: 30
 #   )
 # end
 
 # Capybara.configure do |config|
-#   config.default_driver = :firefox # Ganti driver default menjadi manual
+#   config.default_driver = :manual # Ganti driver default menjadi manual
 #   config.default_max_wait_time = 30
 # end
+
+# Mendaftarkan driver untuk Firefox
+Capybara.register_driver :manual do |app|
+  options = Selenium::WebDriver::Firefox::Options.new
+  # Jika ingin menjalankan di background, bisa diaktifkan:
+  # options.add_argument('--headless')
+  if ENV['HEADLESS'].downcase == 'yes'
+    options.add_argument('--headless')
+  end
+  if ENV['PRIVATE'].downcase == 'yes'
+    options.add_argument('--private')
+  end
+  Capybara::Selenium::Driver.new(
+    app,
+    browser: :firefox,
+    options: options,
+    service: Selenium::WebDriver::Service.chrome(path: 'C:\Users\User\Downloads\program\geckodriver.exe'),
+
+    timeout: 30
+  )
+end
+
+Capybara.configure do |config|
+  config.default_driver = :manual # Menetapkan driver default menjadi Firefox
+  config.default_max_wait_time = 30 # Waktu tunggu maksimal
+end
 
 # single data test
 def get_data_test_single_env(key)
