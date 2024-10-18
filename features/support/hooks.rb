@@ -27,4 +27,5 @@ end
 at_exit do
   puts "GENERATE REPORT"
   generate_report
+  kernel.exit(0)
 end
