@@ -20,12 +20,12 @@ After('@case-2') do
 end
 
 AfterStep do
-  # take_screenshot
+  take_screenshot
   sleep 1
 end
 
 at_exit do
   puts "GENERATE REPORT"
-  # generate_report
+  generate_report
   Kernel.exit(0)
 end
