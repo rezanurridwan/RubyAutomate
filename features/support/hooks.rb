@@ -1,5 +1,5 @@
 Before do
-  Capybara.page.current_window.maximize
+  # Capybara.page.current_window.maximize
   @page = Page.new
   puts "INI HOOKS BEFORE"
 end
