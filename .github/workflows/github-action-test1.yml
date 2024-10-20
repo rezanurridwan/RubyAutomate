@@ -2,7 +2,7 @@ name: Automation test scheduler
 
 on:
   schedule:
-    - cron: "* * * * *"
+    # - cron: "* * * * *" set time off
   workflow_dispatch:
 
 jobs:

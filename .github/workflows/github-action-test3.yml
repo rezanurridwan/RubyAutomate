@@ -2,7 +2,7 @@ name: Automation test cmd
 
 on:
   schedule:
-    - cron: "* * * * *"
+    # - cron: * * * * * * set time off
   workflow_dispatch:
 
 jobs:
