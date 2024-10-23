@@ -14,10 +14,10 @@ When I click cart button for the product on the inventory page
 Then I see the text "Your Cart" in cart page
 When I click button checkout
 Then I see the text "Checkout: Your Information" in checkout page
-# When I input the first name "John" and last name "Doe" and postal code "12345"
-# Then I click button continue
-# Then I see the text "Checkout: Overview" in checkout page
-# Then I click button finish
-# Then  I see the text "Thank you for your order" in checkout page
+When I input the first name "FIRST_NAME" and last name "LAST_NAME" and postal code "POST_CODE"
+Then I click button continue
+Then I see the text "Checkout: Overview" in order page
+Then I click button finish
+Then  I see the text "Thank you for your order" in finish page
 
 
