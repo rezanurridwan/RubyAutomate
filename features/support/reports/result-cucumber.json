@@ -23,7 +23,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5329488900
+              "duration": 7936608200
             },
             "after": [
               {
@@ -32,7 +32,7 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1002004700
+                  "duration": 1010637200
                 }
               }
             ]
@@ -46,7 +46,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 309342200
+              "duration": 355969400
             },
             "after": [
               {
@@ -55,7 +55,7 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1000077200
+                  "duration": 1004941000
                 }
               }
             ]
@@ -69,7 +69,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 313549500
+              "duration": 308826400
             },
             "after": [
               {
@@ -78,7 +78,7 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1010101300
+                  "duration": 1005993800
                 }
               }
             ]
@@ -92,7 +92,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 63994700
+              "duration": 110264000
             },
             "after": [
               {
@@ -101,7 +101,7 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1013636500
+                  "duration": 1005959600
                 }
               }
             ]
@@ -128,11 +128,10 @@
               }
             ],
             "match": {
-              "location": "features/step_definitions/checkout.rb:1"
+              "location": "features/scenarios/checkout-step-one.feature:8"
             },
             "result": {
-              "status": "passed",
-              "duration": 286600
+              "status": "undefined"
             },
             "after": [
               {
@@ -140,8 +139,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1010142500
+                  "status": "skipped"
                 }
               }
             ]
@@ -151,11 +149,10 @@
             "name": "I click the add to cart button for the product checkout name on the inventory page",
             "line": 12,
             "match": {
-              "location": "features/step_definitions/checkout.rb:5"
+              "location": "features/scenarios/checkout-step-one.feature:12"
             },
             "result": {
-              "status": "passed",
-              "duration": 10608143300
+              "status": "undefined"
             },
             "after": [
               {
@@ -163,8 +160,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1000089200
+                  "status": "skipped"
                 }
               }
             ]
@@ -174,11 +170,10 @@
             "name": "I click cart button for the product on the inventory page",
             "line": 13,
             "match": {
-              "location": "features/step_definitions/checkout.rb:11"
+              "location": "features/scenarios/checkout-step-one.feature:13"
             },
             "result": {
-              "status": "passed",
-              "duration": 293618600
+              "status": "undefined"
             },
             "after": [
               {
@@ -186,8 +181,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1002268600
+                  "status": "skipped"
                 }
               }
             ]
@@ -197,11 +191,10 @@
             "name": "I see the text \"Your Cart\" in cart page",
             "line": 14,
             "match": {
-              "location": "features/step_definitions/checkout.rb:15"
+              "location": "features/scenarios/checkout-step-one.feature:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 62717200
+              "status": "undefined"
             },
             "after": [
               {
@@ -209,8 +202,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1010707500
+                  "status": "skipped"
                 }
               }
             ]
@@ -220,11 +212,10 @@
             "name": "I click button checkout",
             "line": 15,
             "match": {
-              "location": "features/step_definitions/checkout.rb:19"
+              "location": "features/scenarios/checkout-step-one.feature:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 263797200
+              "status": "undefined"
             },
             "after": [
               {
@@ -232,8 +223,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1009682800
+                  "status": "skipped"
                 }
               }
             ]
@@ -243,11 +233,10 @@
             "name": "I see the text \"Checkout: Your Information\" in checkout page",
             "line": 16,
             "match": {
-              "location": "features/step_definitions/checkout.rb:23"
+              "location": "features/scenarios/checkout-step-one.feature:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 79449500
+              "status": "undefined"
             },
             "after": [
               {
@@ -255,8 +244,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1001175300
+                  "status": "skipped"
                 }
               }
             ]
@@ -269,7 +257,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31300
+              "duration": 33600
             }
           },
           {
@@ -278,7 +266,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25900
+              "duration": 27100
             }
           },
           {
@@ -287,7 +275,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 682200
+              "duration": 1316800
             }
           }
         ]
@@ -305,11 +293,10 @@
             "name": "User in checkout page without entering first name \"\", last name \"\", postcal code \"\" in the form",
             "line": 21,
             "match": {
-              "location": "features/step_definitions/checkout.rb:50"
+              "location": "features/scenarios/checkout-step-one.feature:21"
             },
             "result": {
-              "status": "passed",
-              "duration": 231158100
+              "status": "undefined"
             },
             "after": [
               {
@@ -317,8 +304,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1004959700
+                  "status": "skipped"
                 }
               }
             ]
@@ -328,11 +314,10 @@
             "name": "I click button continue",
             "line": 22,
             "match": {
-              "location": "features/step_definitions/checkout.rb:37"
+              "location": "features/scenarios/checkout-step-one.feature:22"
             },
             "result": {
-              "status": "passed",
-              "duration": 281574800
+              "status": "undefined"
             },
             "after": [
               {
@@ -340,8 +325,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1012607000
+                  "status": "skipped"
                 }
               }
             ]
@@ -351,11 +335,10 @@
             "name": "the form should be show validation error message \"Error: First Name is required\"",
             "line": 23,
             "match": {
-              "location": "features/step_definitions/checkout.rb:55"
+              "location": "features/scenarios/checkout-step-one.feature:23"
             },
             "result": {
-              "status": "passed",
-              "duration": 79351100
+              "status": "undefined"
             },
             "after": [
               {
@@ -363,8 +346,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1001704400
+                  "status": "skipped"
                 }
               }
             ]
@@ -391,7 +373,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 200062200
+              "duration": 277670600
             }
           }
         ]
@@ -412,7 +394,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 257700900
+              "duration": 298426700
             },
             "after": [
               {
@@ -421,7 +403,7 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1007415500
+                  "duration": 1007303700
                 }
               }
             ]
@@ -435,7 +417,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 389618800
+              "duration": 543320600
             },
             "after": [
               {
@@ -444,7 +426,7 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1008630400
+                  "duration": 1011326500
                 }
               }
             ]
@@ -458,7 +440,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 307179200
+              "duration": 404540200
             },
             "after": [
               {
@@ -467,7 +449,7 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1003564000
+                  "duration": 1006182600
                 }
               }
             ]
@@ -481,7 +463,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 63656600
+              "duration": 63975800
             },
             "after": [
               {
@@ -490,7 +472,7 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1007691200
+                  "duration": 1007540600
                 }
               }
             ]
@@ -517,11 +499,10 @@
               }
             ],
             "match": {
-              "location": "features/step_definitions/checkout.rb:1"
+              "location": "features/scenarios/checkout-step-one.feature:8"
             },
             "result": {
-              "status": "passed",
-              "duration": 128300
+              "status": "undefined"
             },
             "after": [
               {
@@ -529,8 +510,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1005492300
+                  "status": "skipped"
                 }
               }
             ]
@@ -540,11 +520,10 @@
             "name": "I click the add to cart button for the product checkout name on the inventory page",
             "line": 12,
             "match": {
-              "location": "features/step_definitions/checkout.rb:5"
+              "location": "features/scenarios/checkout-step-one.feature:12"
             },
             "result": {
-              "status": "passed",
-              "duration": 10538585500
+              "status": "undefined"
             },
             "after": [
               {
@@ -552,8 +531,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1009467100
+                  "status": "skipped"
                 }
               }
             ]
@@ -563,11 +541,10 @@
             "name": "I click cart button for the product on the inventory page",
             "line": 13,
             "match": {
-              "location": "features/step_definitions/checkout.rb:11"
+              "location": "features/scenarios/checkout-step-one.feature:13"
             },
             "result": {
-              "status": "passed",
-              "duration": 286387100
+              "status": "undefined"
             },
             "after": [
               {
@@ -575,8 +552,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1006900500
+                  "status": "skipped"
                 }
               }
             ]
@@ -586,11 +562,10 @@
             "name": "I see the text \"Your Cart\" in cart page",
             "line": 14,
             "match": {
-              "location": "features/step_definitions/checkout.rb:15"
+              "location": "features/scenarios/checkout-step-one.feature:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 62721500
+              "status": "undefined"
             },
             "after": [
               {
@@ -598,8 +573,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1003262200
+                  "status": "skipped"
                 }
               }
             ]
@@ -609,11 +583,10 @@
             "name": "I click button checkout",
             "line": 15,
             "match": {
-              "location": "features/step_definitions/checkout.rb:19"
+              "location": "features/scenarios/checkout-step-one.feature:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 295502600
+              "status": "undefined"
             },
             "after": [
               {
@@ -621,8 +594,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1002982700
+                  "status": "skipped"
                 }
               }
             ]
@@ -632,11 +604,10 @@
             "name": "I see the text \"Checkout: Your Information\" in checkout page",
             "line": 16,
             "match": {
-              "location": "features/step_definitions/checkout.rb:23"
+              "location": "features/scenarios/checkout-step-one.feature:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 62402700
+              "status": "undefined"
             },
             "after": [
               {
@@ -644,8 +615,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1009497300
+                  "status": "skipped"
                 }
               }
             ]
@@ -658,7 +628,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 45700
+              "duration": 64300
             }
           },
           {
@@ -667,7 +637,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 52400
+              "duration": 76600
             }
           },
           {
@@ -676,7 +646,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 626900
+              "duration": 832400
             }
           }
         ]
@@ -694,11 +664,10 @@
             "name": "User in checkout page without entering first name \"\", last name \"Liandi\", postcal code \"44181\" in the form",
             "line": 27,
             "match": {
-              "location": "features/step_definitions/checkout.rb:50"
+              "location": "features/scenarios/checkout-step-one.feature:27"
             },
             "result": {
-              "status": "passed",
-              "duration": 280981500
+              "status": "undefined"
             },
             "after": [
               {
@@ -706,8 +675,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1014159900
+                  "status": "skipped"
                 }
               }
             ]
@@ -717,11 +685,10 @@
             "name": "I click button continue",
             "line": 28,
             "match": {
-              "location": "features/step_definitions/checkout.rb:37"
+              "location": "features/scenarios/checkout-step-one.feature:28"
             },
             "result": {
-              "status": "passed",
-              "duration": 295535100
+              "status": "undefined"
             },
             "after": [
               {
@@ -729,8 +696,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1014446900
+                  "status": "skipped"
                 }
               }
             ]
@@ -740,11 +706,10 @@
             "name": "the form should be show validation error message \"Error: First Name is required\"",
             "line": 29,
             "match": {
-              "location": "features/step_definitions/checkout.rb:55"
+              "location": "features/scenarios/checkout-step-one.feature:29"
             },
             "result": {
-              "status": "passed",
-              "duration": 95156000
+              "status": "undefined"
             },
             "after": [
               {
@@ -752,8 +717,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1002352300
+                  "status": "skipped"
                 }
               }
             ]
@@ -780,7 +744,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 189927600
+              "duration": 238696200
             }
           }
         ]
@@ -801,7 +765,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 248369600
+              "duration": 299761700
             },
             "after": [
               {
@@ -810,7 +774,7 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1010729700
+                  "duration": 1002307100
                 }
               }
             ]
@@ -824,7 +788,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 278559700
+              "duration": 298005600
             },
             "after": [
               {
@@ -833,7 +797,7 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1001640000
+                  "duration": 1007689200
                 }
               }
             ]
@@ -847,7 +811,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 282403100
+              "duration": 308789400
             },
             "after": [
               {
@@ -856,7 +820,7 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1014791800
+                  "duration": 1012506100
                 }
               }
             ]
@@ -870,7 +834,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 63574500
+              "duration": 71837300
             },
             "after": [
               {
@@ -879,7 +843,7 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1013751700
+                  "duration": 1004117400
                 }
               }
             ]
@@ -906,11 +870,10 @@
               }
             ],
             "match": {
-              "location": "features/step_definitions/checkout.rb:1"
+              "location": "features/scenarios/checkout-step-one.feature:8"
             },
             "result": {
-              "status": "passed",
-              "duration": 145800
+              "status": "undefined"
             },
             "after": [
               {
@@ -918,8 +881,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1009541700
+                  "status": "skipped"
                 }
               }
             ]
@@ -929,11 +891,10 @@
             "name": "I click the add to cart button for the product checkout name on the inventory page",
             "line": 12,
             "match": {
-              "location": "features/step_definitions/checkout.rb:5"
+              "location": "features/scenarios/checkout-step-one.feature:12"
             },
             "result": {
-              "status": "passed",
-              "duration": 10601092100
+              "status": "undefined"
             },
             "after": [
               {
@@ -941,8 +902,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1007208000
+                  "status": "skipped"
                 }
               }
             ]
@@ -952,11 +912,10 @@
             "name": "I click cart button for the product on the inventory page",
             "line": 13,
             "match": {
-              "location": "features/step_definitions/checkout.rb:11"
+              "location": "features/scenarios/checkout-step-one.feature:13"
             },
             "result": {
-              "status": "passed",
-              "duration": 328038000
+              "status": "undefined"
             },
             "after": [
               {
@@ -964,8 +923,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1003477300
+                  "status": "skipped"
                 }
               }
             ]
@@ -975,11 +933,10 @@
             "name": "I see the text \"Your Cart\" in cart page",
             "line": 14,
             "match": {
-              "location": "features/step_definitions/checkout.rb:15"
+              "location": "features/scenarios/checkout-step-one.feature:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 79321200
+              "status": "undefined"
             },
             "after": [
               {
@@ -987,8 +944,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1002963700
+                  "status": "skipped"
                 }
               }
             ]
@@ -998,11 +954,10 @@
             "name": "I click button checkout",
             "line": 15,
             "match": {
-              "location": "features/step_definitions/checkout.rb:19"
+              "location": "features/scenarios/checkout-step-one.feature:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 319927200
+              "status": "undefined"
             },
             "after": [
               {
@@ -1010,8 +965,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1014449800
+                  "status": "skipped"
                 }
               }
             ]
@@ -1021,11 +975,10 @@
             "name": "I see the text \"Checkout: Your Information\" in checkout page",
             "line": 16,
             "match": {
-              "location": "features/step_definitions/checkout.rb:23"
+              "location": "features/scenarios/checkout-step-one.feature:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 78463200
+              "status": "undefined"
             },
             "after": [
               {
@@ -1033,8 +986,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1000869400
+                  "status": "skipped"
                 }
               }
             ]
@@ -1047,7 +999,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46200
+              "duration": 59400
             }
           },
           {
@@ -1056,7 +1008,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 59100
+              "duration": 83800
             }
           },
           {
@@ -1065,15 +1017,15 @@
             },
             "result": {
               "status": "passed",
-              "duration": 688200
+              "duration": 1000700
             }
           }
         ]
       },
       {
-        "id": "validation-form-checkout-step-one;user-enters-null-for-first-name-data-in-the-checkout-form",
+        "id": "validation-form-checkout-step-one;user-enters-null-for-last-name-data-in-the-checkout-form",
         "keyword": "Scenario",
-        "name": "User enters null for first name data in the checkout form",
+        "name": "User enters null for last name data in the checkout form",
         "description": "",
         "line": 32,
         "type": "scenario",
@@ -1083,11 +1035,10 @@
             "name": "User in checkout page without entering first name \"Jonathan\", last name \"\", postcal code \"44181\" in the form",
             "line": 33,
             "match": {
-              "location": "features/step_definitions/checkout.rb:50"
+              "location": "features/scenarios/checkout-step-one.feature:33"
             },
             "result": {
-              "status": "passed",
-              "duration": 362510300
+              "status": "undefined"
             },
             "after": [
               {
@@ -1095,8 +1046,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1012527500
+                  "status": "skipped"
                 }
               }
             ]
@@ -1106,11 +1056,10 @@
             "name": "I click button continue",
             "line": 34,
             "match": {
-              "location": "features/step_definitions/checkout.rb:37"
+              "location": "features/scenarios/checkout-step-one.feature:34"
             },
             "result": {
-              "status": "passed",
-              "duration": 279958100
+              "status": "undefined"
             },
             "after": [
               {
@@ -1118,8 +1067,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1009577700
+                  "status": "skipped"
                 }
               }
             ]
@@ -1129,11 +1077,10 @@
             "name": "the form should be show validation error message \"Error: Last Name is required\"",
             "line": 35,
             "match": {
-              "location": "features/step_definitions/checkout.rb:55"
+              "location": "features/scenarios/checkout-step-one.feature:35"
             },
             "result": {
-              "status": "passed",
-              "duration": 95461200
+              "status": "undefined"
             },
             "after": [
               {
@@ -1141,8 +1088,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1006212100
+                  "status": "skipped"
                 }
               }
             ]
@@ -1169,7 +1115,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 187260900
+              "duration": 317066100
             }
           }
         ]
@@ -1190,7 +1136,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 238413700
+              "duration": 380258600
             },
             "after": [
               {
@@ -1199,7 +1145,7 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1009418100
+                  "duration": 1008412100
                 }
               }
             ]
@@ -1213,7 +1159,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 431130200
+              "duration": 587921800
             },
             "after": [
               {
@@ -1222,7 +1168,7 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1012793600
+                  "duration": 1008740900
                 }
               }
             ]
@@ -1236,7 +1182,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 346929300
+              "duration": 310524900
             },
             "after": [
               {
@@ -1245,7 +1191,7 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1004751600
+                  "duration": 1008118600
                 }
               }
             ]
@@ -1259,7 +1205,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 61566400
+              "duration": 76571400
             },
             "after": [
               {
@@ -1268,7 +1214,7 @@
                 },
                 "result": {
                   "status": "passed",
-                  "duration": 1004883300
+                  "duration": 1004093200
                 }
               }
             ]
@@ -1295,11 +1241,10 @@
               }
             ],
             "match": {
-              "location": "features/step_definitions/checkout.rb:1"
+              "location": "features/scenarios/checkout-step-one.feature:8"
             },
             "result": {
-              "status": "passed",
-              "duration": 276700
+              "status": "undefined"
             },
             "after": [
               {
@@ -1307,8 +1252,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1006151800
+                  "status": "skipped"
                 }
               }
             ]
@@ -1318,11 +1262,10 @@
             "name": "I click the add to cart button for the product checkout name on the inventory page",
             "line": 12,
             "match": {
-              "location": "features/step_definitions/checkout.rb:5"
+              "location": "features/scenarios/checkout-step-one.feature:12"
             },
             "result": {
-              "status": "passed",
-              "duration": 10573090800
+              "status": "undefined"
             },
             "after": [
               {
@@ -1330,8 +1273,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1005197200
+                  "status": "skipped"
                 }
               }
             ]
@@ -1341,11 +1283,10 @@
             "name": "I click cart button for the product on the inventory page",
             "line": 13,
             "match": {
-              "location": "features/step_definitions/checkout.rb:11"
+              "location": "features/scenarios/checkout-step-one.feature:13"
             },
             "result": {
-              "status": "passed",
-              "duration": 329734000
+              "status": "undefined"
             },
             "after": [
               {
@@ -1353,8 +1294,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1000475100
+                  "status": "skipped"
                 }
               }
             ]
@@ -1364,11 +1304,10 @@
             "name": "I see the text \"Your Cart\" in cart page",
             "line": 14,
             "match": {
-              "location": "features/step_definitions/checkout.rb:15"
+              "location": "features/scenarios/checkout-step-one.feature:14"
             },
             "result": {
-              "status": "passed",
-              "duration": 78038700
+              "status": "undefined"
             },
             "after": [
               {
@@ -1376,8 +1315,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1004201400
+                  "status": "skipped"
                 }
               }
             ]
@@ -1387,11 +1325,10 @@
             "name": "I click button checkout",
             "line": 15,
             "match": {
-              "location": "features/step_definitions/checkout.rb:19"
+              "location": "features/scenarios/checkout-step-one.feature:15"
             },
             "result": {
-              "status": "passed",
-              "duration": 281505700
+              "status": "undefined"
             },
             "after": [
               {
@@ -1399,8 +1336,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1000083100
+                  "status": "skipped"
                 }
               }
             ]
@@ -1410,11 +1346,10 @@
             "name": "I see the text \"Checkout: Your Information\" in checkout page",
             "line": 16,
             "match": {
-              "location": "features/step_definitions/checkout.rb:23"
+              "location": "features/scenarios/checkout-step-one.feature:16"
             },
             "result": {
-              "status": "passed",
-              "duration": 79214400
+              "status": "undefined"
             },
             "after": [
               {
@@ -1422,8 +1357,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1005059400
+                  "status": "skipped"
                 }
               }
             ]
@@ -1436,7 +1370,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 43200
+              "duration": 43100
             }
           },
           {
@@ -1445,7 +1379,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 53600
+              "duration": 52700
             }
           },
           {
@@ -1454,15 +1388,15 @@
             },
             "result": {
               "status": "passed",
-              "duration": 674100
+              "duration": 1022300
             }
           }
         ]
       },
       {
-        "id": "validation-form-checkout-step-one;user-enters-null-for-first-name-data-in-the-checkout-form",
+        "id": "validation-form-checkout-step-one;user-enters-null-for-postcode-data-in-the-checkout-form",
         "keyword": "Scenario",
-        "name": "User enters null for first name data in the checkout form",
+        "name": "User enters null for postcode data in the checkout form",
         "description": "",
         "line": 38,
         "type": "scenario",
@@ -1472,11 +1406,10 @@
             "name": "User in checkout page without entering first name \"Jonathan\", last name \"Liandi\", postcal code \"\" in the form",
             "line": 39,
             "match": {
-              "location": "features/step_definitions/checkout.rb:50"
+              "location": "features/scenarios/checkout-step-one.feature:39"
             },
             "result": {
-              "status": "passed",
-              "duration": 297662000
+              "status": "undefined"
             },
             "after": [
               {
@@ -1484,8 +1417,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1014805000
+                  "status": "skipped"
                 }
               }
             ]
@@ -1495,11 +1427,10 @@
             "name": "I click button continue",
             "line": 40,
             "match": {
-              "location": "features/step_definitions/checkout.rb:37"
+              "location": "features/scenarios/checkout-step-one.feature:40"
             },
             "result": {
-              "status": "passed",
-              "duration": 280812100
+              "status": "undefined"
             },
             "after": [
               {
@@ -1507,8 +1438,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1013394600
+                  "status": "skipped"
                 }
               }
             ]
@@ -1518,11 +1448,10 @@
             "name": "the form should be show validation error message \"Error: Postal Code is required\"",
             "line": 41,
             "match": {
-              "location": "features/step_definitions/checkout.rb:55"
+              "location": "features/scenarios/checkout-step-one.feature:41"
             },
             "result": {
-              "status": "passed",
-              "duration": 95801200
+              "status": "undefined"
             },
             "after": [
               {
@@ -1530,8 +1459,7 @@
                   "location": "features/support/hooks.rb:22"
                 },
                 "result": {
-                  "status": "passed",
-                  "duration": 1000074400
+                  "status": "skipped"
                 }
               }
             ]
@@ -1558,7 +1486,378 @@
             },
             "result": {
               "status": "passed",
-              "duration": 189284000
+              "duration": 387378900
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Background",
+        "name": "",
+        "description": "",
+        "line": 3,
+        "type": "background",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "I am on the login page",
+            "line": 4,
+            "match": {
+              "location": "features/step_definitions/login.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 504505700
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 1015799600
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "I enter the username \"VALID_USERNAME\" and password \"PASSWORD\"",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/login.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 410636100
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 1004717400
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "I click button login in login page",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/login.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 295154500
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 1009603100
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I am on homepage landing page and see the title \"VALIDATION_TITLE_HOMEPAGE\"",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/login.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46439700
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "passed",
+                  "duration": 1007441400
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Given ",
+            "name": "I have products as product_name for checkout",
+            "line": 8,
+            "rows": [
+              {
+                "cells": [
+                  "product_name"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Backpack"
+                ]
+              }
+            ],
+            "match": {
+              "location": "features/scenarios/checkout-step-one.feature:8"
+            },
+            "result": {
+              "status": "undefined"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "I click the add to cart button for the product checkout name on the inventory page",
+            "line": 12,
+            "match": {
+              "location": "features/scenarios/checkout-step-one.feature:12"
+            },
+            "result": {
+              "status": "undefined"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "I click cart button for the product on the inventory page",
+            "line": 13,
+            "match": {
+              "location": "features/scenarios/checkout-step-one.feature:13"
+            },
+            "result": {
+              "status": "undefined"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I see the text \"Your Cart\" in cart page",
+            "line": 14,
+            "match": {
+              "location": "features/scenarios/checkout-step-one.feature:14"
+            },
+            "result": {
+              "status": "undefined"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "When ",
+            "name": "I click button checkout",
+            "line": 15,
+            "match": {
+              "location": "features/scenarios/checkout-step-one.feature:15"
+            },
+            "result": {
+              "status": "undefined"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I see the text \"Checkout: Your Information\" in checkout page",
+            "line": 16,
+            "match": {
+              "location": "features/scenarios/checkout-step-one.feature:16"
+            },
+            "result": {
+              "status": "undefined"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85200
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 132000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1298600
+            }
+          }
+        ]
+      },
+      {
+        "id": "validation-form-checkout-step-one;user-don't-checkout-the-item-and-wanna-go-back-to-summary-order-page",
+        "keyword": "Scenario",
+        "name": "User don't checkout the item and wanna go back to summary order page",
+        "description": "",
+        "line": 44,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "When ",
+            "name": "I in checkout page and see the text \"Checkout: Your Information\" in checkout page",
+            "line": 45,
+            "match": {
+              "location": "features/scenarios/checkout-step-one.feature:45"
+            },
+            "result": {
+              "status": "undefined"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "And ",
+            "name": "I click button back to order summary",
+            "line": 46,
+            "match": {
+              "location": "features/scenarios/checkout-step-one.feature:46"
+            },
+            "result": {
+              "status": "undefined"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "name": "I see the text \"Your Cart\" in cart page",
+            "line": 47,
+            "match": {
+              "location": "features/scenarios/checkout-step-one.feature:47"
+            },
+            "result": {
+              "status": "undefined"
+            },
+            "after": [
+              {
+                "match": {
+                  "location": "features/support/hooks.rb:22"
+                },
+                "result": {
+                  "status": "skipped"
+                }
+              }
+            ]
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression",
+            "line": 43
+          },
+          {
+            "name": "@form_checout_step_1",
+            "line": 43
+          },
+          {
+            "name": "@tc05_back_to_order_page",
+            "line": 43
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "capybara-3.40.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 193469700
             }
           }
         ]
