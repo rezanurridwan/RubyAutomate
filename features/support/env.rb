@@ -24,7 +24,7 @@ Capybara.register_driver :manual do |app|
     app,
     browser: :chrome,
     options: options,
-    service: Selenium::WebDriver::Service.chrome(path: 'C:/Users/User/Downloads/program/chromedriver-win64/chromedriver.exe'),
+    service: Selenium::WebDriver::Service.chrome(path: 'C:/Users/User/Downloads/program/chromedriver250425/chromedriver-win64/chromedriver.exe'),
     timeout: 30
   )
 end
