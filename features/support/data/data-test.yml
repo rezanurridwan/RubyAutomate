@@ -1,4 +1,11 @@
 BASE_URL: "https://www.saucedemo.com/"
+HCMS_URL: "http://10.17.128.79:28080/hcms-test/fif_login.zul"
+
+
+# HCMS Test Data
+hcms_username: "2633"
+hcms_password: "password"
+hcms_url_dashboard: "http://10.17.128.79:28080/hcms-test/"
 
 VALID_USERNAME: standard_user
 LOCKED_USERNAME: locked_out_user
