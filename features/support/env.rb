@@ -39,7 +39,7 @@ Dotenv.load
 Capybara.register_driver :manual do |app|
   options = Selenium::WebDriver::Firefox::Options.new
   # Jika ingin menjalankan di background, bisa diaktifkan:
-  # options.add_argument('--headless')
+  options.add_argument('--headless')
   if ENV['HEADLESS'].downcase == 'yes'
     options.add_argument('--headless')
   end
